@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Prova I (TWEB)</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./img/julio-cesar.png"
+        alt="Foto de Júlio César"
+        style="max-width: 300px"
+      />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Primeira prova prática de TWEB</h1>
+        <p>
+          Nessa prova prática demonstramos os conhecimentos adquiridos durante o
+          período de aula com o professor Samuel.
+        </p>
+        <img
+          src="./img/33d048ff184c3b4e704ad525bb12c63f.jpg"
+          alt="Imagem representativa"
+          style="max-width: 100px"
+        />
+      </section>
+
+      <section id="sobre">
+        <h1>Sobre mim</h1>
+        <p>
+          Me chamo <strong>Júlio César</strong>, tenho 18 anos e estudo no IFCE.
+          O nome do meu pai é <strong>Jeimson Rodrigues</strong> e o da minha
+          mãe é <strong>Geralda Alves</strong>. Também menciono minha
+          ex-namorada <strong>Aline</strong>.
+        </p>
+
+        <img
+          src="./img/images.jpg"
+          alt="Foto de estudante"
+          style="max-width: 100px"
+        />
+      </section>
+
+      <section id="projetos">
+        <div>
+          <h2>Projeto Estágio Biblioteca EEEP</h2>
+          <p>
+            Projeto desenvolvido para a biblioteca pública de Várzea Alegre: uma
+            biblioteca online com API, CRUD, validação e outras funcionalidades.
+          </p>
+
+          <img
+            src="./img/images (1).jpg"
+            alt="Biblioteca virtual"
+            style="max-width: 100px"
+          />
+
+          <p>
+            <a
+              href="https://github.com/Dev-Julio/biblioteca-publica-de-Varzea-Alegre"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Acesse aqui!</a
+            >
+          </p>
+        </div>
+
+        <div>
+          <h2>Atividades da Faculdade</h2>
+          <p>
+            Atividades práticas da disciplina TWEB para aprimorar conhecimentos.
+          </p>
+
+          <img
+            src="./img/omni-theme-rocketseat-exemplo-codigo-react..webp"
+            alt="Exemplo de código"
+            style="max-width: 100px"
+          />
+
+          <p>
+            <a
+              href="https://github.com/Dev-Julio/AtiviedadesFaculdade/tree/master/Lista"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Acesse aqui!</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="habilidades">
+        <h2>Objetivos de carreira</h2>
+        <ul>
+          <li>Trabalhar com o que gosto;</li>
+          <li>Dar orgulho para a família;</li>
+          <li>Poder dar um bom futuro a meus filhos e esposa no futuro;</li>
+          <li>Trabalhar com boa remuneração;</li>
+          <li>Aproveitar a vida com segurança e estabilidade;</li>
+        </ul>
+
+        <h3>Tecnologias que sei</h3>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Sequelize</li>
+          <li>MySQL</li>
+          <li>Node.js</li>
+          <li>Handlebars</li>
+        </ol>
+
+        <h3>Tecnologias que quero aprender</h3>
+        <ol>
+          <li>Python</li>
+          <li>Java</li>
+          <li>APIs RESTful</li>
+        </ol>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post" novalidate>
+          <div>
+            <label for="nome">Nome</label><br />
+            <input id="nome" name="nome" type="text" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label><br />
+            <input id="email" name="email" type="email" required />
+          </div>
+
+          <fieldset>
+            <legend>Motivo do contato</legend>
+            <div>
+              <input
+                type="checkbox"
+                id="motivo-duvida"
+                name="motivo[]"
+                value="duvida"
+              />
+              <label for="motivo-duvida">Dúvida</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="motivo-acesso"
+                name="motivo[]"
+                value="acesso"
+              />
+              <label for="motivo-acesso">Dificuldade de acessar locais</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="motivo-curiosidade"
+                name="motivo[]"
+                value="curiosidade"
+              />
+              <label for="motivo-curiosidade">Curiosidade</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="motivo-bug"
+                name="motivo[]"
+                value="bug"
+              />
+              <label for="motivo-bug">Bug</label>
+            </div>
+          </fieldset>
+
+          <div>
+            <label for="mensagem">Deixe uma mensagem</label><br />
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>Nome do aluno:</strong> Júlio César Alves Bezerra</p>
+      <p><strong>Curso:</strong> Sistemas de Informação</p>
+    </footer>
+  </body>
+</html>
